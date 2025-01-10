@@ -13,7 +13,11 @@ dependencies:
     sdk: flutter
 
   geocoding_platform_interface: ^3.0.0
-  geocoding_android: ^3.0.0
+  geocoding_android:
+    git:
+      url: https://github.com/EgzonIseini/flutter-geocoding.git
+      path: geocoding_android
+      ref: main
   geocoding_ios: ^3.0.0
 
 dev_dependencies:
